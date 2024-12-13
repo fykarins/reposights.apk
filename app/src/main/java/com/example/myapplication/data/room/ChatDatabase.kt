@@ -25,6 +25,6 @@ abstract class ChatDatabase : RoomDatabase() {
                 INSTANCE = instance
                 instance
             }
-        }
+         }
     }
 }

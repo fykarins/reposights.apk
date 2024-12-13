@@ -157,7 +157,7 @@
                     android:layout_height="wrap_content"
                     android:background="@null"
                     android:hint="@string/message"
-                    android:textColor="@color/dark_green"
+                    android:textColor="@color/green_black"
                     android:paddingEnd="40dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -239,7 +239,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/search_documents"
-                        android:textColor="@color/dark_green"
+                        android:textColor="@color/green_black"
                         android:paddingStart="48dp"
                         android:paddingEnd="48dp"
                         android:inputType="text"/>

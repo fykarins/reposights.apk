@@ -1,5 +1,6 @@
 package com.example.myapplication.ui.adapter
 
+import android.annotation.SuppressLint
 import com.example.myapplication.data.remote.ChatRequest
 import com.example.myapplication.data.remote.DocumentRequest
 import com.example.myapplication.data.local.RelatedDocument
@@ -54,6 +55,7 @@ class ChatViewModel : ViewModel() {
         }
     }
 
+    @SuppressLint("NullSafeMutableLiveData")
     fun clearChatResponse() {
         _chatResponse.postValue(null)
     }

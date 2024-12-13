@@ -2,12 +2,8 @@
 <resources>
     <color name="white">#FFFFFFFF</color>
     <color name="soft_blue">#B3E5FC</color>
-    <color name="blue">#8EC6FF</color>
-    <color name="magenta_accent">#F78DD2</color>
-
     <color name="dark_green">#005B2E</color>
     <color name="green">#28A745</color>
-    <color name="light_green">#A9FBB8</color>
-    <color name="very_soft_green">#D6F2E1</color>
+    <color name="green_black">#001f00</color>
 
 </resources>

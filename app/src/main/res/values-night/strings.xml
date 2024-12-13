@@ -10,8 +10,6 @@
     <!-- Sign Up Screen -->
     <string name="create_account">CREATE ACCOUNT</string>
     <string name="full_name">Full Name</string>
-    <string name="email_layout">Email</string>
-    <string name="password_layout">Password</string>
     <string name="sign_up_button">Sign Up</string>
 
     <!-- Documents Screen -->
@@ -32,9 +30,6 @@
     <string name="clear_text">Clear text</string>
     <string name="history">History</string>
     <string name="delete_all">Delete All</string>
-    <string name="sender">Sender</string>
-    <string name="message_content_here">Message content here</string>
-    <string name="time">10:30 AM</string>
     <string name="try_again">Try Again</string>
     <string name="empty_state_message">How can I assist you?</string>
     <string name="empty_state_image">empty state image</string>

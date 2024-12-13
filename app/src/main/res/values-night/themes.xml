@@ -11,16 +11,6 @@
     </style>
 
     <!-- App container parent style -->
-    <style name="Theme.IPBgpt.AppContainerParent" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Radius of the outer bound of widgets to make the rounded corners -->
-        <item name="appRadius">16dp</item>
-        <!-- Radius of the inner view's bound of widgets -->
-        <item name="appInnerRadius">8dp</item>
-    </style>
 
     <!-- Specific app container style -->
-    <style name="Theme.IPBgpt.AppContainer" parent="Theme.IPBgpt.AppContainerParent">
-        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
-        <item name="appPadding">16dp</item>
-    </style>
 </resources>

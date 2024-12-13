@@ -27,12 +27,9 @@ import com.example.myapplication.ui.adapter.ChatViewModel
 import com.example.myapplication.ui.adapter.DocumentAdapter
 import com.example.myapplication.ui.feature.history.HistoryActivity
 import com.example.myapplication.ui.feature.user.LoginActivity
-import com.example.myapplication.data.room.Chat
-import com.example.myapplication.data.room.ChatDatabase
 import com.google.android.material.chip.Chip
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.util.UUID
 
