@@ -1,8 +1,3 @@
 <resources>
-    <style name="TransparentToolbarCustom" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
-        <item name="android:background">@android:color/transparent</item>
-        <item name="android:elevation">0dp</item>
-        <item name="titleTextColor">@color/white</item>
-    </style>
 
 </resources>

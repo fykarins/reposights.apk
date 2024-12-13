@@ -6,7 +6,7 @@
         <item name="android:windowLightStatusBar">true</item>
 
         <item name="android:textColorPrimary">@color/dark_green</item>
-        <item name="android:textColorSecondary">@color/light_green</item>
+        <item name="android:textColorSecondary">@color/green_black</item>
     </style>
 
     <style name="Theme.IPBgpt" parent="Base.Theme.IPBgpt">
@@ -18,7 +18,4 @@
         <item name="android:elevation">0dp</item>
     </style>
 
-    <!-- App container parent style -->
-
-    <!-- Specific app container style -->
 </resources>

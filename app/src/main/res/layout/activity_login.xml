@@ -38,7 +38,6 @@
                     tools:ignore="UseCompoundDrawables">
 
                     <ImageView
-                        android:id="@+id/ic_logo"
                         android:layout_width="36dp"
                         android:layout_height="36dp"
                         android:layout_marginEnd="8dp"
@@ -46,7 +45,6 @@
                         android:src="@drawable/ic_logo" />
 
                     <TextView
-                        android:id="@+id/loginTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/login"
@@ -58,7 +56,6 @@
                 </LinearLayout>
 
                 <TextView
-                    android:id="@+id/repoSightText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"

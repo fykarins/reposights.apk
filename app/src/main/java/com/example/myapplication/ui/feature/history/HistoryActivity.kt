@@ -14,7 +14,6 @@ import com.example.myapplication.ui.adapter.HistoryAdapter
 import com.example.myapplication.ui.adapter.HistoryItem
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
-import com.google.firebase.firestore.Query
 
 class HistoryActivity : AppCompatActivity() {
 
@@ -100,7 +99,7 @@ class HistoryActivity : AppCompatActivity() {
 
         firestore.collection("messages")
             .whereEqualTo("userId", currentUser.uid)
-            .orderBy("timestamp", Query.Direction.DESCENDING) // Sort by time
+            .orderBy("timestamp") // Sort by time
             .get()
             .addOnSuccessListener { querySnapshot ->
                 val historyList = querySnapshot.documents.map { document ->
@@ -124,7 +123,6 @@ class HistoryActivity : AppCompatActivity() {
                 }
 
                 historyAdapter.submitList(historyList)
-                binding.historyRecyclerView.scrollToPosition(0)
             }
             .addOnFailureListener { e ->
                 Log.e("Firestore", "Error loading chat history", e)

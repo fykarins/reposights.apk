@@ -44,7 +44,6 @@
                         android:src="@drawable/ic_logo" />
 
                     <TextView
-                        android:id="@+id/signupTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/create_account"
